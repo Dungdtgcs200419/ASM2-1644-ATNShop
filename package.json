@@ -1,0 +1,24 @@
+{
+  "name": "atn-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dungdtgcs200419/ASM2-1644-ATNShop.git"
+  },
+  "author": "Doan Thanh Dung, Pham Hoa Hiep, Bui Cong Thuan, Tran Trung Tien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dungdtgcs200419/ASM2-1644-ATNShop/issues"
+  },
+  "homepage": "https://github.com/Dungdtgcs200419/ASM2-1644-ATNShop#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "handlebars": "^4.7.7",
+    "mongoose": "^6.2.2"
+  }
+}
