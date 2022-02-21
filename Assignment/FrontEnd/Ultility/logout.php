@@ -1,0 +1,9 @@
+<?php
+    ob_start(); 
+    session_start();
+    unset($_SESSION['Web_user']);
+    unset($_SESSION['Web_email']);
+    unset($_SESSION['Web_password']);
+    unset($_SESSION['cart']);
+    header("Location:../main.php")
+?>
