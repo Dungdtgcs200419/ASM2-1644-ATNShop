@@ -38,8 +38,12 @@ const productSchema = new mongoose.Schema({
         type: Number,
         default: 0,
         trim: true,
-
     },
+    slug: {
+        type: String,
+        required: true,
+        trim: true,
+    }
 });
 const product = mongoose.model("product", ProductsSchema, "product");
 module.exports = product;
